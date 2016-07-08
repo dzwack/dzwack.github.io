@@ -1,0 +1,20 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+.jumbotron {
+	text-align: center;
+	<!--
+	background-image: url('../images/700px-Banffnatpark.jpg');
+	-->
+}
+
+.jumbotron p {
+	color: green;
+}
